@@ -1,4 +1,3 @@
-<script>
 chrome.contextMenus.create({
     title: "Turn on speech input",
     contexts: ["editable"],
@@ -6,4 +5,3 @@ chrome.contextMenus.create({
         chrome.tabs.sendRequest(tab.id, 'letmespeak')
     }
 });
-</script>
